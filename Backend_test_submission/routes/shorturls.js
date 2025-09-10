@@ -1,7 +1,7 @@
 const express = require("express");
 const { generateShortcode } = require("../utils/shortcode.js");
 const urlStore = require("../data/store.js");
-const { Log } = require("../middleware/loggingMiddleware.js");
+const { Log } = require("../../Logging_middleware/loggingMiddleware.js");
 
 const router = express.Router();
 

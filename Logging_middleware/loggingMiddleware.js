@@ -1,6 +1,6 @@
 // src/middleware/loggingMiddleware.js
 const axios = require("axios");
-const { EVAL_API_KEY } = require("../config/env");
+const { EVAL_API_KEY } = require("../Backend_test_submission/config/env");
 
 async function loggingMiddleware(req, res, next) {
   const logEntry = {

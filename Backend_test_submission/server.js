@@ -1,5 +1,5 @@
 const express = require("express");
-const { loggingMiddleware } = require("./middleware/loggingMiddleware.js");
+const { loggingMiddleware } = require("../Logging_middleware/loggingMiddleware.js");
 const shortUrlsRouter = require("./routes/shorturls.js");
 const { loadEnv } = require("./config/env.js");
 
